@@ -49,5 +49,5 @@ Go to the project directory
 ## 😌 Honest Time to finish the project
 
 I had took about 3hrs 33min. I started it on webnesday left it and returned to it on friday. I got stuck in the 2nd section when the page is divided into 2 parts and cards are diplayed
-## Feedback
+## 👀 Feedback
 If you have any feedback, please reach out to us at qa.sixsigma@gmail.com
