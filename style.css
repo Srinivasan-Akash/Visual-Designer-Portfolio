@@ -191,7 +191,7 @@ footer{
     background-color: rgb(30, 30, 30);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 1% 0;
     margin-top: 2%;
 }
@@ -309,3 +309,182 @@ div .num{
     font-size: 30px;
 }
 
+@media only screen and (min-width: 370px) and (max-width:480px) {
+    nav ul{
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10%;
+    }
+
+    main div article{
+        width: 200%;
+    }
+
+    main div h1{
+        width: 200%;
+        font-size: 40px;
+    }
+
+    main div img{
+        height: 50vh;
+        width: 75vw;
+        margin-bottom: 15%;
+    }
+
+    .divs{
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+
+    .skills{
+        height: fit-content;
+        padding: 10% 0;
+    }
+
+    .achivements{
+        column-gap: 12%;
+        margin-top: 10%;
+    }
+
+    .card-group{
+        gap: 20%;
+    }
+
+    .card-group div{
+        padding: 10%;
+    }
+
+    .heading{
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    .card{
+        height: 35vh;
+    }
+
+    .imgVintage{
+        height: 8% !important;
+    }
+
+    .box{
+        flex-direction: column;
+    }
+
+    .box aside h1{
+        font-size: 30px;
+        padding-left: 15%;
+        width: 80%;
+        text-align: center;
+    }
+
+    .box aside article{
+        font-size: 15px;
+        padding-left: 5%;
+        width: 98%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .quick-links{
+        margin-right: 20%;
+    }
+
+    footer{
+        padding-left: 20%;
+    }    
+
+    .projects{
+        height: 120vh;
+    }
+
+    
+    .menu-btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        /* border: 3px solid #fff; */
+      }
+      .menu-btn__burger {
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255,101,47,.2);
+        transition: all .5s ease-in-out;
+      }
+      .menu-btn__burger::before,
+      .menu-btn__burger::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255,101,47,.2);
+        transition: all .5s ease-in-out;
+      }
+      .menu-btn__burger::before {
+        transform: translateY(-8px);
+      }
+      .menu-btn__burger::after {
+        transform: translateY(8px);
+      }
+      /* ANIMATION */
+      .menu-btn.open .menu-btn__burger {
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+      }
+      .menu-btn.open .menu-btn__burger::before {
+        transform: rotate(45deg) translate(35px, -35px);
+      }
+      .menu-btn.open .menu-btn__burger::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+      }
+
+      
+.mob-nav{
+    background-color: #fff;
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    top: 0%;
+    left: -300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+  }
+
+  ul li{
+    color: black;
+  }
+  
+  .remove{
+    left: 0%;
+  }
+  
+  .mob-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2em;
+  }
+  
+  .mob-list li{
+    margin-bottom: 10%;
+  }
+
+}

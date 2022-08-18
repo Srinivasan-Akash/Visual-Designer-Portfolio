@@ -20,6 +20,9 @@
                 <li>Contact</li>
                 <li>Other Page <span>&#x25BC;</span> </li>
             </ul>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
         </nav>
 
         <main>
@@ -153,7 +156,7 @@
 
             <div class="card">
                 <div class="image">
-                    <img src="images/24.07.2022_20.41.54_REC.png" height="255vh" alt="">
+                    <img class="imgVintage" src="images/24.07.2022_20.41.54_REC.png" height="255vh" alt="">
                 </div>
                 <div>
                     <h2>The Vintage</h2>
@@ -205,5 +208,34 @@
             <img src="images/Untitled.png" alt="">
         </div>
     </footer>
+    
+    <section class="mob-nav" id="mobNav">
+        <ul class="mob-list">
+            <li>Home <span>&#x25BC;</span> </li>
+            <li>Project</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Other Page <span>&#x25BC;</span> </li>
+            <div>
+                <button class="green-btn">About Me</button>
+            </div>
+        </ul>
+      </section>
+      <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobNav = document.getElementById("mobNav")
+        let menuOpen = false;
+        menuBtn.addEventListener('click', () => {
+          if(!menuOpen) {
+            menuBtn.classList.add('open');
+            mobNav.classList.add("remove")
+            menuOpen = true;
+          } else {
+            menuBtn.classList.remove('open');
+            mobNav.classList.remove("remove")
+            menuOpen = false;
+          }
+        });
+      </script>
 </body>
 </html>
