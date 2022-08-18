@@ -9,8 +9,11 @@ Hope you like my project !! And Note that I haven't made it responsive it only w
   - CSS Flex Box
   - CSS Grid
 
-## 🚩 Demo
+## 🚩 Demo In Laptop Screen
 https://user-images.githubusercontent.com/108281031/181750660-bfa0f397-5409-462e-9ee4-631896e91ee2.mp4
+
+## 🚩 Demo In Mobile Screen
+https://user-images.githubusercontent.com/108281031/185425021-52d96af5-c6d6-4867-92d4-a406101bb4f1.mp4
 
 ## Run Locally
 
@@ -37,7 +40,7 @@ Go to the project directory
 - Royalty Free Images used
 - Logo Hover Effect
 - Beautifull UI/UX Design
-- OFull Blown Website
+- Full Blown Website
 - Dark Themed Website
 - Hosted on Netlify and set up in production
 
