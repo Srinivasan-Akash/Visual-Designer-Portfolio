@@ -44,13 +44,8 @@ Go to the project directory
 - Dark Themed Website
 - Hosted on Netlify and set up in production
 
-## 🤔 What i have learnt By working on this project
-1. Understood where to use `flex` and where to use `grid`
-2. `flex and grid` VS `absolute positioning` where to use what
-3. How to think in a box mannered
-
 ## 😌 Honest Time to finish the project
+I had took about 2hrs 42min. Development process went smoothly but my laptop had issues and got hanged in the middle of the development had issues that way.
 
-I had took about 3hrs 33min. I started it on webnesday left it and returned to it on friday. I got stuck in the 2nd section when the page is divided into 2 parts and cards are diplayed
 ## 👀 Feedback
 If you have any feedback, please reach out to us at qa.sixsigma@gmail.com
